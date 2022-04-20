@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.header__main{
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(31, 32, 58);
+    width: 100%;
+    height: auto;
+}
+.header__nav{
+    display: block;
+    box-sizing: border-box;   
+}
+.header__nav img{
+    width: 64px;
+    margin-top: 15px;
+    display: inline;
+    box-sizing: border-box;
+    margin-left: 150px;
+
+}
+.header__nav i{
+    color: white;
+    font-size: 25px;
+    float: right;
+    display: inline;
+    box-sizing: border-box;
+    margin-right: 300px;
+    margin-top: 35px;
+
+}
+.header__nav i:hover{
+    color: goldenrod;
+}
+.header__avt{
+    height: 500px;
+    background-color:rgb(241, 240, 240);
+    box-sizing: border-box;
+    display: block;
+}
+.header__avt img{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    margin-left: 600px;
+    margin-top: 50px;
+   
+}
+.header__text{
+    box-sizing: border-box;
+    display: block;
+    width: 646px;
+   height: auto;
+    margin-left: 500px;
+  
+    
+}
+.header__text h2{
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52.8px;
+    text-size-adjust: 100%;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.header__text p{
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    line-height: 25.6px;
+    text-size-adjust: 100%;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.header__text a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.about__main{
+    margin-top: 70px;
+    display: block;
+    box-sizing: border-box;
+
+}
+.about__left{
+    width: 578px;
+    height: 800px;
+   margin-left: 200px;
+   margin-top: 200px;
+   display: inline-block;
+    
+   
+}
+.about__left h1{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 48.4px;
+    text-size-adjust: 100%;
+}
+.about__left img{
+    width: 550px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 50px;
+}
+.about__right{
+    width: 578px;
+    height: auto;
+    float: right;
+    display: inline;
+    margin-top: 100px;
+    margin-right: 100px;
+
+
+}
+.about__right img{
+    width: 550px;
+    height: 600px;
+    display: inline;
+}
+.about__right button{
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+}  
+.about__right button:hover{
+    color: white;
+    background-color: black;
+    border: none;
+}
+.digital__main{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.digital__first{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.digital__left{
+    width: 300px;
+    height: 300px;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 370px;
+ 
+}
+.digital__left h1{
+    box-sizing: border-box;
+    display: block;
+    font-size: 85px;
+    font-weight: 300;
+    line-height: 105.6px;
+    text-size-adjust: 100%;
+}
+.digital__right{
+    width: 404px;
+    height: 271px;
+    display: block;
+    float: right;
+    margin-top: 50px;
+    
+}
+.digital__right p{
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-size-adjust: 100%;
+    color: black;
+}
+.digital__right button{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 10px 30px;
+   background-color: #ffa54d;
+    color: white;
+    border: none;
+}
+.digital__right button:hover{
+    color: white;
+    background-color: black;
+    border: none;
+
+}
+.change{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+
+    
+ 
+    margin-left: 400px;
+}
+.change__h2{
+    display: block;
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 76.8px;
+    text-size-adjust: 100%;
+    text-align: center;
+  
+   
+}
+.change i{
+   margin-left: 300px;
+   margin-top: 50px;
+   box-sizing: border-box;
+   display: block;
+   font-size: 30px;
+   position: relative;
+   animation-name: example;
+   animation-duration:4s ;
+   animation-iteration-count: 99;
+
+}
+@keyframes example{
+    0% {top: 100px; bottom: 100px;}
+    25% {top: 80px; bottom: 120px;}
+    50% {top: 60px; bottom: 140px;}
+    75% {top: 40px; bottom: 160px;}
+    100% {top: 20px; bottom: 250px;}
+}
+.change h5{
+margin-top: 100px;
+margin-left: 250px;
+display: block;
+box-sizing: border-box;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-size-adjust: 100%;
+}
+.gallary__main{
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.gallary__first img{ 
+    width: 500px;
+    height: 350px;
+  
+}
+/* 
+.gallary__first img:hover{
+    color: rgb(255, 255, 255);
+    background: rgba(210,144,23,1);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(210,114,23,1) 0%);
+    cursor: pointer;
+    transition-delay:0s ;
+    transition-duration:0.5s ;
+    transition-property:all ;
+    transition-timing-function: ease;
+} */
+.gallary__first img:hover{
+    opacity: 0.8;
+    transition-delay:0.4 ;
+    transition-property:all ;
+    transition-timing-function: ease;
+}
+.gallary__second img{
+    width: 500px;
+    height: 350px;
+
+}
+.footer__container{
+    width: 100%;
+    height: 500px;
+     background-color: rgb(62, 59, 59); 
+    
+    display: block;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+.footer__main{
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    width: 500px;
+   height: auto;
+}
+.footer__head{
+    display: block;
+    box-sizing: border-box;
+}
+.footer__head h4{
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+
+}
+.footer__head p{
+    font-size: 18px;
+    color: whitesmoke;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.footer__icon{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+.footer__icon a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    
+
+}
+
+.footer__icon i{
+    padding: 0 15px;
+}
+.footer__icon i:hover{
+    color: whitesmoke;
+}

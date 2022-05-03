@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sự Kiện Chuột</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body onload="doReady()">
+    <div class="main">
+        <form>
+            <img src="./bai-toan-3768-1551057063-6906-1551496131.png" id="myImage">
+            <p>
+                Click button below to move the image to right
+            </p>
+            <input type="button" value="click Me" onclick="moveRight ()">
+        </form>
+       
+        
+
+    </div>
+    
+    <!-- tinh can nang  -->
+    <form>
+        <label for="weight">weight :</label>
+        <input type="text" name="weight" value="" id="weight" name="weight">
+        <label for="height">Height :</label>
+        <input type="text" name="height" value="" id="height" name="height">
+        <input type="button" value="BMI" onclick="calculateBMI()">
+    </form>
+    <p id="result"></p>
+
+    <!-- ung dung vui swith  -->
+    <label class="switch">
+        <input type="checkbox" id="g" onclick="switchGood()" >
+        <span class="slider round good"></span>
+    </label>
+    <span>
+        <p><b>Good</b></p>
+    </span>
+    <br />
+    <label class="switch">
+        <input type="checkbox" id="c" onclick="switchCheap()">
+        <span class="slider round cheap"></span>
+    </label>
+    <span>
+        <p><b>Cheap</b></p>
+    </span>
+    <br />
+    <label class="switch">
+        <input type="checkbox" id="f" onclick="switchFast()">
+        <span class="slider round fast"></span>
+    </label>
+    <span>
+        <p><b>Fast</b></p>
+    </span>
+
+
+    
+
+
+
+
+
+    <script src="./main.js">
+
+    </script>
+    
+</body>
+</html>

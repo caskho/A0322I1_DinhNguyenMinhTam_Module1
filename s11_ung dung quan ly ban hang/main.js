@@ -64,3 +64,4 @@ app.fetchAll();
 function closeInput() {
     document.getElementById('spoiler').style.display = 'none';
 }
+
